@@ -1,0 +1,1336 @@
+@font-face {
+  font-family: 'MYRIADPRO-BOLDCOND';
+  src: url(../Fonts/MYRIADPRO-BOLDCOND.OTF);
+}
+
+#formato {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+  justify-items: center;
+  color: #ffffff;
+  padding: 0;
+}
+
+#imagen {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../image/fotoPortadaDifuminado.png);
+  background-size: contain;
+}
+
+#top {
+  width: 100%;
+  height: 30px;
+  background-color: #2d3241;
+}
+
+#infoTop {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 2px;
+  background-color: #353b50;
+  align-content: center;
+}
+
+#logoHorizontal {
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+#infoSup {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 600px;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+#iconos {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 30;
+  margin-top: 12px;
+}
+
+#cua {
+  width: 25px;
+  height: 25px;
+  background-color: #80C7BF;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+#puntoWass {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+
+}
+
+h3 {
+  width: 60%;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+h1 {
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  margin: 0;
+  margin-left: 10%;
+  padding: 0;
+  text-align: center;
+}
+
+#boton-uno {
+  width: 40%;
+  background-color: #80C7BF;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  border: none;
+  margin-left: 30%;
+  margin-top: 30px;
+  cursor: pointer;  
+}
+
+#boton-uno a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+#boton-dos {
+  width: 40%;
+  background-color: #80C7BF;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  border: none;
+  margin-left: 30%;
+  margin-top: 520px;
+  cursor: pointer;
+}
+
+#boton-dos a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+#texto {
+  width: 55%;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 120px;
+  text-align: justify;
+}
+
+.exp {
+  margin-top: 70px;
+}
+
+#medio {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+#bloque {
+  width: 96%;
+  height: 560px;
+  background-image: url(../image/bloqueFotos.png);
+  background-size:contain;
+  align-content: center;
+  margin-top: 100px;
+}
+
+#pie {
+  width: 100%;
+  height: 230px;
+  background-color: #353b50;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.textoPie {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+#pieWass {
+  display: flex;
+  height: 50px;
+  margin: 0;
+}
+
+#wass {
+  width: 25px;
+  height: 25px;
+  background-color: #80C7BF;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+
+#phone {
+  font-family: 'MYRIADPRO-BOLDCOND';
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#info {
+  width: 100%;
+  height: 150px;
+  color: black;
+  font-family: open-sans;
+  justify-content: center;
+  justify-items: center;
+  font-size: 20px;
+}
+
+#formulario {
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #353b50;
+  align-content: center;
+}
+
+#iconosFooter {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 12px;
+}
+
+#footerCua {
+  width: 50px;
+  height: 50px;
+  background-color: #80C7BF;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#infoFooter {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 2px;
+  background-color: #353b50;
+  align-content: center;
+}
+
+#infoDown {
+  width: 500px;
+  height: 50px;
+  color: #ffffff;
+  margin-left: 40px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+#infoOne {
+  width: 400px;
+  height: 20px;
+}
+
+#infoTwo {
+  width: 400px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+#logoHorizontalFooter {
+  margin-left: 300px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 1380px) and (max-width: 1900px) {
+  #formato {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-family: "Open Sans", sans-serif;
+    justify-items: center;
+    color: #ffffff;
+    padding: 0;
+  }
+  
+  #imagen {
+    width: 100%;
+    height: 1300px;
+    background-image: url(../image/fotoPortadaDifuminado.png);
+    background-size: cover;
+  }
+  
+  #top {
+    width: 100%;
+    height: 30px;
+    background-color: #2d3241;
+  }
+  
+  #infoTop {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #logoHorizontal {
+    margin-top: 5px;
+    margin-left: 60px;
+  }
+  
+  #infoSup {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 600px;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+  #iconos {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 20;
+    margin-top: 12px;
+  }
+  
+  #cua {
+    width: 25px;
+    height: 25px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  h3 {
+    width: 60%;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 30%;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    text-align: center;
+  }
+   
+  #boton-uno {
+    width: 40%;
+    background-color: #80C7BF;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 30px;
+    cursor: pointer;  
+  }
+  
+  #boton-uno a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #boton-dos {
+    width: 40%;
+    background-color: #80C7BF;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 520px;
+    cursor: pointer;
+  }
+  
+  #boton-dos a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #texto {
+    width: 55%;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 120px;
+    text-align: justify;
+  }
+  
+  .exp {
+    margin-top: 70px;
+  }
+  
+  #medio {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #bloque {
+    width: 96%;
+    height: 560px;
+    background-image: url(../image/bloqueFotos.png);
+    background-size:contain;
+    align-content: center;
+    margin-top: 100px;
+  }
+  
+  #pie {
+    width: 100%;
+    height: 230px;
+    background-color: #353b50;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .textoPie {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  #pieWass {
+    display: flex;
+    height: 50px;
+    margin: 0;
+  }
+  
+  #wass {
+    width: 25px;
+    height: 25px;
+      background-color: #80C7BF;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  
+  #phone {
+    font-family: 'MYRIADPRO-BOLDCOND';
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  #info {
+    width: 100%;
+    height: 150px;
+    color: black;
+    font-family: open-sans;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+  
+  #formulario {
+    color: black;
+  }
+  
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #iconosFooter {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 12px;
+  }
+  
+  #footerCua {
+    width: 50px;
+    height: 50px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  #infoFooter {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #infoDown {
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  
+  #infoOne {
+    width: 400px;
+    height: 20px;
+  }
+  
+  #infoTwo {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  #logoHorizontalFooter {
+    margin-left: 300px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1380px) {
+  #formato {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-family: "Open Sans", sans-serif;
+    justify-items: center;
+    color: #ffffff;
+    padding: 0;
+  }
+  
+  #imagen {
+    width: 100%;
+    height: 740px;
+    background-image: url(../image/fotoPortadaDifuminado.png);
+    background-size: cover;
+  }
+  
+  #infoTop {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #logoHorizontal {
+    margin-top: 5px;
+    margin-left: 100px;
+  }
+  
+  #infoSup {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 300px;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  
+  #iconos {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 30;
+    margin-top: 12px;
+  }
+    
+  h3 {
+    width: 60%;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 30%;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #boton-uno {
+    width: 50%;
+    background-color: #80C7BF;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 30px;
+    cursor: pointer;  
+  }
+  
+  #boton-uno a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #boton-dos {
+    width: 50%;
+    background-color: #80C7BF;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 380px;
+    cursor: pointer;
+  }
+  
+  #boton-dos a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #texto {
+    width: 60%;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 120px;
+    text-align: justify;
+  }
+  
+  #medio {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #bloque {
+    width: 96%;
+    height: 400px;
+    background-image: url(../image/bloqueFotos.png);
+    background-size:contain;
+    align-content: center;
+    margin-top: 100px;
+  }
+  
+  #pie {
+    width: 100%;
+    height: 230px;
+    background-color: #353b50;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .textoPie {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  #pieWass {
+    display: flex;
+    height: 50px;
+    margin: 0;
+  }
+  
+  #wass {
+    width: 25px;
+    height: 25px;
+      background-color: #80C7BF;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  
+  #phone {
+    font-family: 'MYRIADPRO-BOLDCOND';
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  #info {
+    width: 100%;
+    height: 150px;
+    color: black;
+    font-family: open-sans;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+ 
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #iconosFooter {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 12px;
+  }
+  
+  #footerCua {
+    width: 50px;
+    height: 50px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  #infoFooter {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #infoDown {
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  
+  #infoOne {
+    width: 300px;
+    height: 20px;
+  }
+  
+  #infoTwo {
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+  }
+    
+  #logoHorizontalFooter {
+    margin-left: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  #formato {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-family: "Open Sans", sans-serif;
+    justify-items: center;
+    color: #ffffff;
+    padding: 0;
+  }
+
+  #imagen {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/fotoPortadaDifuminado.png);
+    background-size: cover;
+  }
+  
+  #top {
+    width: 100%;
+    height: 30px;
+    background-color: #2d3241;
+  }
+  
+  #infoTop {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #logoHorizontal {
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  
+  #infoSup {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  
+  #iconos {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 30;
+    margin-top: 12px;
+  }
+  
+  #cua {
+    width: 20px;
+    height: 20px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  h3 {
+    width: 60%;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 30%;
+    margin-top: 50px;
+    
+  }
+  
+  h1 {
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    text-align: center;
+    
+  }
+  
+  #boton-uno {
+    width: 40%;
+    background-color: #80C7BF;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 30px;
+    cursor: pointer;  
+  }
+  
+  #boton-uno a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #boton-dos {
+    width: 40%;
+    background-color: #80C7BF;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 520px;
+    cursor: pointer;
+  }
+  
+  #boton-dos a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #texto {
+    width: 55%;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 120px;
+    text-align: justify;
+  }
+  
+  .exp {
+    margin-top: 70px;
+  }
+  
+  #medio {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #bloque {
+    width: 96%;
+    height: 560px;
+    background-image: url(../image/bloqueFotos.png);
+    background-size:contain;
+    align-content: center;
+    margin-top: 100px;
+  }
+  
+  #pie {
+    width: 100%;
+    height: 230px;
+    background-color: #353b50;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .textoPie {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  #pieWass {
+    display: flex;
+    height: 50px;
+    margin: 0;
+  }
+  
+  #wass {
+    width: 25px;
+    height: 25px;
+      background-color: #80C7BF;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  
+  #phone {
+    font-family: 'MYRIADPRO-BOLDCOND';
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  #info {
+    width: 100%;
+    height: 150px;
+    color: black;
+    font-family: open-sans;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+  
+  #formulario {
+    color: black;
+  }
+  
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: #353b50;
+    align-content: center;
+    
+  }
+  
+  #iconosFooter {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 12px;
+  }
+  
+  #footerCua {
+    width: 50px;
+    height: 50px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  #infoFooter {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #infoDown {
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  
+  #infoOne {
+    width: 400px;
+    height: 20px;
+  }
+  
+  #infoTwo {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  #logoHorizontalFooter {
+   
+    margin-left: 300px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 768px) {
+
+  #formato {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    font-family: "Open Sans", sans-serif;
+    justify-items: center;
+    color: #ffffff;
+    padding: 0;
+  }
+  
+  #imagen {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/fotoPortadaDifuminado.png);
+    background-size: cover;
+  }
+  
+  #top {
+    width: 100%;
+    height: 20px;
+    background-color: #2d3241;
+  }
+  
+  #infoTop {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #logoHorizontal {
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  #infoSup {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 600px;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+   
+  #cua {
+    width: 25px;
+    height: 25px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  h3 {
+    width: 80%;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    width: 95%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #boton-uno {
+    width: 40%;
+    background-color: #80C7BF;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 30px;
+    cursor: pointer;  
+  }
+  
+  #boton-uno a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #boton-dos {
+    width: 40%;
+    background-color: #80C7BF;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-left: 30%;
+    margin-top: 520px;
+    cursor: pointer;
+  }
+  
+  #boton-dos a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  
+  #texto {
+    width: 55%;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 120px;
+    text-align: justify;
+  }
+  
+  .exp {
+    margin-top: 70px;
+  }
+  
+  #medio {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #bloque {
+    width: 96%;
+    height: 560px;
+    background-image: url(../image/bloqueFotos.png);
+    background-size:contain;
+    align-content: center;
+    margin-top: 100px;
+  }
+  
+  #pie {
+    width: 100%;
+    height: 230px;
+    background-color: #353b50;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .textoPie {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  #pieWass {
+    display: flex;
+    height: 50px;
+    margin: 0;
+  }
+  
+  #wass {
+    width: 25px;
+    height: 25px;
+      background-color: #80C7BF;
+    border-radius: 5px;
+    margin-top: 18px;
+  }
+  
+  #phone {
+    font-family: 'MYRIADPRO-BOLDCOND';
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  #info {
+    width: 100%;
+    height: 150px;
+    color: black;
+    font-family: open-sans;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+  
+  #formulario {
+    color: black;
+  }
+  
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #iconosFooter {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 12px;
+  }
+  
+  #footerCua {
+    width: 50px;
+    height: 50px;
+    background-color: #80C7BF;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  #infoFooter {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    background-color: #353b50;
+    align-content: center;
+  }
+  
+  #infoDown {
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  
+  #infoOne {
+    width: 400px;
+    height: 20px;
+  }
+  
+  #infoTwo {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  #logoHorizontalFooter {
+    margin-left: 300px;
+    padding-bottom: 40px;
+  }
+}

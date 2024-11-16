@@ -1,0 +1,8 @@
+@font-face {
+  font-family:'MYRIADPRO-BOLDCOND';
+  src: url(../Fonts/MYRIADPRO-BOLDCOND.OTF);
+}
+*{
+  margin: 0px;
+  font-family: 'MYRIADPRO-BOLDCOND';
+}
