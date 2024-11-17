@@ -13,11 +13,12 @@
   justify-items: center;
   color: #ffffff;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #imagen {
-  width: 100%;
-  height: 1000px;
+  width: 98%;
+  height: 990px;
   background-image: url(../image/fotoPortadaDifuminado.png);
   background-size: contain;
 }
@@ -79,15 +80,14 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: #000000;
-
 }
 
 h3 {
-  width: 60%;
+  width: 100%;
   font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
   font-size: 35px;
   font-weight: 400;
-  margin-left: 30%;
+  text-align: center;
   margin-top: 50px;
 }
 
@@ -97,25 +97,36 @@ h1 {
   font-size: 65px;
   font-weight: 900;
   margin: 0;
-  margin-left: 10%;
   padding: 0;
+  margin-left: 10%;
   text-align: center;
 }
 
 #boton-uno {
-  width: 40%;
+  display: flex;
+  width: 50%;
+  height: 80px;
   background-color: #80C7BF;
   text-decoration: none;
   list-style-type: none;
   padding: 20px;
   border-radius: 50px;
-  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  border: none;
   font-size: 32px;
   font-weight: 700;
-  border: none;
-  margin-left: 30%;
   margin-top: 30px;
-  cursor: pointer;  
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textBtn {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 #boton-uno a {
@@ -125,12 +136,12 @@ h1 {
 }
 
 #boton-dos {
-  width: 40%;
+  width: 50%;
   background-color: #80C7BF;
   padding: 20px;
   border-radius: 50px;
   font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 700;
   border: none;
   margin-left: 30%;
@@ -166,8 +177,8 @@ h1 {
 }
 
 #bloque {
-  width: 96%;
-  height: 560px;
+  width: 95%;
+  height: 555px;
   background-image: url(../image/bloqueFotos.png);
   background-size:contain;
   align-content: center;
@@ -176,7 +187,7 @@ h1 {
 
 #pie {
   width: 100%;
-  height: 230px;
+  height: 180px;
   background-color: #353b50;
   font-size: 30px;
   font-weight: 700;
@@ -204,7 +215,6 @@ h1 {
   border-radius: 5px;
   margin-top: 18px;
 }
-
 #phone {
   font-family: 'MYRIADPRO-BOLDCOND';
   font-size: 20px;
@@ -226,10 +236,12 @@ h1 {
 }
 
 footer {
+  display: flex;
   width: 100%;
   height: 200px;
   background-color: #353b50;
-  align-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 #iconosFooter {
@@ -256,6 +268,7 @@ footer {
   margin-top: 2px;
   background-color: #353b50;
   align-content: center;
+  margin-top: 70px;
 }
 
 #infoDown {
@@ -264,7 +277,6 @@ footer {
   color: #ffffff;
   margin-left: 40px;
   font-size: 15px;
-  margin-bottom: 50px;
 }
 
 #infoOne {
@@ -280,12 +292,13 @@ footer {
 
 #logoHorizontalFooter {
   margin-left: 300px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 1380px) and (max-width: 1900px) {
+
   #formato {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -298,7 +311,7 @@ footer {
   
   #imagen {
     width: 100%;
-    height: 1300px;
+    height: 990px;
     background-image: url(../image/fotoPortadaDifuminado.png);
     background-size: cover;
   }
@@ -320,15 +333,15 @@ footer {
   
   #logoHorizontal {
     margin-top: 5px;
-    margin-left: 60px;
+    margin-left: 50px;
   }
   
   #infoSup {
     display: flex;
-    width: 300px;
+    width: 380px;
     height: 50px;
     color: #ffffff;
-    margin-left: 600px;
+    margin-left: 20%;
     font-size: 15px;
     margin-top: 12px;
   }
@@ -338,10 +351,10 @@ footer {
     width: 200px;
     height: 50px;
     color: #ffffff;
-    margin-left: 20;
+    margin-left: 2%;
     margin-top: 12px;
   }
-  
+
   #cua {
     width: 25px;
     height: 25px;
@@ -350,42 +363,51 @@ footer {
     margin-left: 5px;
   }
   
-  h3 {
-    width: 60%;
-    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    margin-left: 30%;
-    margin-top: 50px;
-  }
   
-  h1 {
-    width: 80%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 65px;
-    font-weight: 900;
-    margin: 0;
-    margin-left: 10%;
-    padding: 0;
-    text-align: center;
-  }
-   
-  #boton-uno {
-    width: 40%;
-    background-color: #80C7BF;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px;
-    border-radius: 50px;
-    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    border: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    cursor: pointer;  
-  }
-  
+h3 {
+  width: 100%;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+  text-align: center;
+}
+#boton-uno {
+  display: flex;
+  width: 50%;
+  height: 70px;
+  background-color: #80C7BF;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 35px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textBtn {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+  margin-top: 0;
+}
+
   #boton-uno a {
     text-decoration: none;
     list-style-type: none;
@@ -393,16 +415,17 @@ footer {
   }
   
   #boton-dos {
-    width: 40%;
+    width: 50%;
     background-color: #80C7BF;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     border: none;
-    margin-left: 30%;
-    margin-top: 520px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 540px;
     cursor: pointer;
   }
   
@@ -417,7 +440,7 @@ footer {
     color: black;
     font-family: "Playfair Display", serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 120px;
     text-align: justify;
   }
@@ -437,14 +460,14 @@ footer {
     width: 96%;
     height: 560px;
     background-image: url(../image/bloqueFotos.png);
-    background-size:contain;
+    background-size: cover;
     align-content: center;
     margin-top: 100px;
   }
   
   #pie {
     width: 100%;
-    height: 230px;
+    height: 180px;
     background-color: #353b50;
     font-size: 30px;
     font-weight: 700;
@@ -489,11 +512,8 @@ footer {
     font-size: 20px;
   }
   
-  #formulario {
-    color: black;
-  }
-  
   footer {
+    display: flex;
     width: 100%;
     height: 200px;
     background-color: #353b50;
@@ -521,34 +541,36 @@ footer {
     display: flex;
     width: 100%;
     height: 50px;
-    margin-top: 2px;
     background-color: #353b50;
     align-content: center;
+    justify-items: center;
   }
   
   #infoDown {
-    width: 500px;
+    width: 300px;
     height: 50px;
     color: #ffffff;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 15px;
     margin-bottom: 50px;
+        
   }
   
   #infoOne {
-    width: 400px;
+    width: 250px;
     height: 20px;
+    margin-top: 30px;
   }
   
   #infoTwo {
-    width: 400px;
+    width: 250px;
     height: 20px;
     margin-top: 10px;
   }
   
   #logoHorizontalFooter {
-    margin-left: 300px;
-    padding-bottom: 40px;
+    margin-left: 5%;
+    padding-bottom: 20px;
   }
 }
 
@@ -566,8 +588,8 @@ footer {
   }
   
   #imagen {
-    width: 100%;
-    height: 740px;
+    width: 99%;
+    height: 800px;
     background-image: url(../image/fotoPortadaDifuminado.png);
     background-size: cover;
   }
@@ -583,15 +605,15 @@ footer {
   
   #logoHorizontal {
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   
   #infoSup {
     display: flex;
-    width: 400px;
+    width: 380px;
     height: 50px;
     color: #ffffff;
-    margin-left: 300px;
+    margin-left: 20%;
     font-size: 12px;
     margin-top: 12px;
   }
@@ -601,46 +623,56 @@ footer {
     width: 200px;
     height: 50px;
     color: #ffffff;
-    margin-left: 30;
+    margin-left: 5%;
     margin-top: 12px;
   }
-    
+  
   h3 {
-    width: 60%;
+    width: 100%;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    margin-left: 30%;
-    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
   }
   
   h1 {
-    width: 80%;
+    width: 90%;
     font-family: "Open Sans", sans-serif;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 900;
     margin: 0;
-    margin-left: 10%;
     padding: 0;
+    margin-left: 5%;
     text-align: center;
   }
-  
+
   #boton-uno {
+    display: flex;
     width: 50%;
+    height: 70px;
     background-color: #80C7BF;
     text-decoration: none;
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50px;
-    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
     border: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    cursor: pointer;  
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
   }
   
+  .textBtn {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
   #boton-uno a {
     text-decoration: none;
     list-style-type: none;
@@ -648,15 +680,15 @@ footer {
   }
   
   #boton-dos {
-    width: 50%;
+    width: 60%;
     background-color: #80C7BF;
     padding: 10px;
     border-radius: 50px;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     border: none;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 380px;
     cursor: pointer;
   }
@@ -688,14 +720,14 @@ footer {
     width: 96%;
     height: 400px;
     background-image: url(../image/bloqueFotos.png);
-    background-size:contain;
+    background-size:cover;
     align-content: center;
     margin-top: 100px;
   }
   
   #pie {
     width: 100%;
-    height: 230px;
+    height: 180px;
     background-color: #353b50;
     font-size: 30px;
     font-weight: 700;
@@ -739,7 +771,7 @@ footer {
     justify-items: center;
     font-size: 20px;
   }
- 
+
   footer {
     width: 100%;
     height: 200px;
@@ -774,28 +806,28 @@ footer {
   }
   
   #infoDown {
-    width: 500px;
+    width: 300px;
     height: 50px;
     color: #ffffff;
-    margin-left: 100px;
+    margin-left: 5%;
     font-size: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
   #infoOne {
-    width: 300px;
+    width: 200px;
     height: 20px;
   }
   
   #infoTwo {
-    width: 300px;
+    width: 200px;
     height: 20px;
     margin-top: 10px;
   }
     
   #logoHorizontalFooter {
-    margin-left: 50px;
-    padding-bottom: 40px;
+    margin-left: 10%;
+    padding-bottom: 20px;
   }
 }
 
@@ -814,7 +846,7 @@ footer {
 
   #imagen {
     width: 100%;
-    height: auto;
+    height: 640px;
     background-image: url(../image/fotoPortadaDifuminado.png);
     background-size: cover;
   }
@@ -841,10 +873,10 @@ footer {
   
   #infoSup {
     display: flex;
-    width: 100px;
+    width: 280px;
     height: 50px;
     color: #ffffff;
-    margin-left: 100px;
+    margin-left: 10%;
     font-size: 10px;
     margin-top: 12px;
   }
@@ -854,7 +886,7 @@ footer {
     width: 100px;
     height: 50px;
     color: #ffffff;
-    margin-left: 30;
+    margin-left: 5%;
     margin-top: 12px;
   }
   
@@ -867,41 +899,49 @@ footer {
   }
   
   h3 {
-    width: 60%;
+    width: 100%;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    margin-left: 30%;
-    margin-top: 50px;
-    
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
   }
   
   h1 {
-    width: 80%;
+    width: 90%;
     font-family: "Open Sans", sans-serif;
     font-size: 65px;
     font-weight: 900;
     margin: 0;
-    margin-left: 10%;
     padding: 0;
+    margin-left: 5%;
     text-align: center;
-    
   }
-  
+
   #boton-uno {
-    width: 40%;
+    display: flex;
+    width: 55%;
+    height: 60px;
     background-color: #80C7BF;
     text-decoration: none;
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
-    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
     border: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    cursor: pointer;  
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textBtn {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
   
   #boton-uno a {
@@ -911,16 +951,16 @@ footer {
   }
   
   #boton-dos {
-    width: 40%;
+    width: 60%;
     background-color: #80C7BF;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 27px;
+    font-weight: 500;
     border: none;
-    margin-left: 30%;
-    margin-top: 520px;
+    margin-left: 20%;
+    margin-top: 480px;
     cursor: pointer;
   }
   
@@ -931,12 +971,12 @@ footer {
   }
   
   #texto {
-    width: 55%;
+    width: 70%;
     color: black;
     font-family: "Playfair Display", serif;
     font-weight: 500;
-    font-size: 30px;
-    margin-top: 120px;
+    font-size: 25px;
+    margin-top: 50px;
     text-align: justify;
   }
   
@@ -953,28 +993,28 @@ footer {
   
   #bloque {
     width: 96%;
-    height: 560px;
+    height: 500px;
     background-image: url(../image/bloqueFotos.png);
-    background-size:contain;
+    background-size:cover;
     align-content: center;
     margin-top: 100px;
   }
   
   #pie {
     width: 100%;
-    height: 230px;
+    height: 250px;
     background-color: #353b50;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
     margin-top: 10px;
   }
   
   .textoPie {
-    width: 100%;
+    width: 90%;
     height: 100px;
     text-align: center;
-    padding: 50px;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #pieWass {
@@ -986,7 +1026,7 @@ footer {
   #wass {
     width: 25px;
     height: 25px;
-      background-color: #80C7BF;
+    background-color: #80C7BF;
     border-radius: 5px;
     margin-top: 18px;
   }
@@ -1004,11 +1044,7 @@ footer {
     font-family: open-sans;
     justify-content: center;
     justify-items: center;
-    font-size: 20px;
-  }
-  
-  #formulario {
-    color: black;
+    font-size: 18px;
   }
   
   footer {
@@ -1016,7 +1052,6 @@ footer {
     height: 200px;
     background-color: #353b50;
     align-content: center;
-    
   }
   
   #iconosFooter {
@@ -1024,13 +1059,13 @@ footer {
     width: 200px;
     height: 50px;
     color: #ffffff;
-    margin-left: 50px;
+    margin-left: 5%;
     margin-top: 12px;
   }
   
   #footerCua {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #80C7BF;
     border-radius: 5px;
     margin-left: 5px;
@@ -1046,34 +1081,32 @@ footer {
   }
   
   #infoDown {
-    width: 500px;
+    width: 200px;
     height: 50px;
     color: #ffffff;
-    margin-left: 100px;
-    font-size: 15px;
-    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
   }
   
   #infoOne {
-    width: 400px;
+    width: 180px;
     height: 20px;
   }
   
   #infoTwo {
-    width: 400px;
+    width: 180px;
     height: 20px;
     margin-top: 10px;
   }
   
-  
   #logoHorizontalFooter {
-   
-    margin-left: 300px;
-    padding-bottom: 40px;
+    margin-left: 0%;
+    padding-bottom: 20px;
   }
 }
 
-@media (min-width: 380px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
 
   #formato {
     width: 100%;
@@ -1088,9 +1121,9 @@ footer {
   }
   
   #imagen {
-    width: 100%;
-    height: auto;
-    background-image: url(../image/fotoPortadaDifuminado.png);
+    width: 96%;
+    height: 600px;    
+    background-image: url(../image/fotoPortadaDifuminadoMovil.jpg);
     background-size: cover;
   }
   
@@ -1110,12 +1143,13 @@ footer {
   }
   
   #logoHorizontal {
-    align-items: center;
-    margin-top: 5px;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30%;
   }
   
   #infoSup {
-    display: flex;
+    display: none;
     width: 400px;
     height: 50px;
     color: #ffffff;
@@ -1124,8 +1158,8 @@ footer {
     margin-top: 12px;
   }
   
-   
   #cua {
+    display: none;
     width: 25px;
     height: 25px;
     background-color: #80C7BF;
@@ -1134,39 +1168,52 @@ footer {
   }
   
   h3 {
-    width: 80%;
+    width: 90%;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    margin-left: 10%;
-    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 50;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
   }
   
   h1 {
-    width: 95%;
+    width: 80%;
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 27px;
+    font-weight: 800;
     margin: 0;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     text-align: center;
   }
   
   #boton-uno {
-    width: 40%;
+    display: flex;
+    width: 70%;
+    height: 50px;
     background-color: #80C7BF;
     text-decoration: none;
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
-    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
     border: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    cursor: pointer;  
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textBtn {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
   
   #boton-uno a {
@@ -1176,16 +1223,16 @@ footer {
   }
   
   #boton-dos {
-    width: 40%;
+    width: 70%;
     background-color: #80C7BF;
-    padding: 20px;
+    padding: 5px;
     border-radius: 50px;
     font-family: 'MYRIADPRO-BOLDCOND', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     border: none;
-    margin-left: 30%;
-    margin-top: 520px;
+    margin-left: 12%;
+    margin-top: 500px;
     cursor: pointer;
   }
   
@@ -1196,50 +1243,50 @@ footer {
   }
   
   #texto {
-    width: 55%;
+    width: 70%;
     color: black;
     font-family: "Playfair Display", serif;
-    font-weight: 500;
-    font-size: 30px;
-    margin-top: 120px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 10%;
     text-align: justify;
   }
   
   .exp {
-    margin-top: 70px;
+    margin-top: 50px;
   }
   
   #medio {
     width: 100%;
-    height: auto;
+    height: 720px;
     justify-content: center;
     justify-items: center;
   }
   
   #bloque {
-    width: 96%;
-    height: 560px;
-    background-image: url(../image/bloqueFotos.png);
-    background-size:contain;
-    align-content: center;
-    margin-top: 100px;
+    width: 100%;
+    height: 520px;
+    background-image: url(../image/bloqueMovil.png);
+    background-size: cover;
+    margin-top: 60px;
   }
   
   #pie {
     width: 100%;
-    height: 230px;
+    height: 200px;
     background-color: #353b50;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 10px;
+    margin-top: 2px;
+    justify-items: center;
+    align-content: center;
   }
   
   .textoPie {
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    padding: 50px;
-    margin: 0;
+    width: 80%;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    padding-bottom: 0;
   }
   
   #pieWass {
@@ -1251,7 +1298,7 @@ footer {
   #wass {
     width: 25px;
     height: 25px;
-      background-color: #80C7BF;
+    background-color: #80C7BF;
     border-radius: 5px;
     margin-top: 18px;
   }
@@ -1264,44 +1311,42 @@ footer {
   
   #info {
     width: 100%;
-    height: 150px;
+    height: 200px;
     color: black;
     font-family: open-sans;
-    justify-content: center;
-    justify-items: center;
-    font-size: 20px;
-  }
-  
-  #formulario {
-    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
   }
   
   footer {
+    display: block;
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: #353b50;
     align-content: center;
+    margin-top: 250px;
   }
   
   #iconosFooter {
-    display: flex;
-    width: 200px;
+    width: 100px;
     height: 50px;
     color: #ffffff;
-    margin-left: 50px;
-    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
   }
   
   #footerCua {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #80C7BF;
     border-radius: 5px;
     margin-left: 5px;
   }
   
   #infoFooter {
-    display: flex;
+    display: block;
     width: 100%;
     height: 50px;
     margin-top: 2px;
@@ -1310,7 +1355,8 @@ footer {
   }
   
   #infoDown {
-    width: 500px;
+    display: none;
+    width: 100px;
     height: 50px;
     color: #ffffff;
     margin-left: 100px;
@@ -1330,7 +1376,8 @@ footer {
   }
   
   #logoHorizontalFooter {
-    margin-left: 300px;
-    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
   }
 }
